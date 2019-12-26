@@ -1,0 +1,48 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	display: grid;
+	height: 100vh;
+}
+
+a {
+	color: #222;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.big {
+	height: 100vh;
+	display: grid;
+}
+
+
+.header {
+	width: 100%;
+	padding: 10px;
+}
+
+.header2 {
+	position: absolute;
+	right: 28px;
+	top: 15px;
+}
+
+.main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.search {
+	display: flex;
+	justify-content: center;
+}
+
+.buttons {
+	display: flex;
+	justify-content: center;
+}
